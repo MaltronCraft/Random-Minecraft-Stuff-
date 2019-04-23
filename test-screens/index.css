@@ -1,0 +1,3348 @@
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.ProgressBar_progressBarWrapper_75e1 {
+	width: 100%;
+	height: 0.6875rem;
+	background-color: #c4c4c4;
+	box-shadow: inset 0.125rem 0 0 rgba(0, 0, 0, 0.05), inset -0.125rem 0 0 rgba(0, 0, 0, 0.05),
+		inset 0 -0.125rem 0 rgba(0, 0, 0, 0.1), inset 0 0.125rem 0 rgba(255, 255, 255, 0.3);
+}
+.ProgressBar_progressBar_02af {
+	background-image: linear-gradient(270deg, #5fcd6a, #abe66e);
+	height: 100%;
+	box-shadow: inset 0.125rem 0 0 rgba(0, 0, 0, 0.05), inset -0.125rem 0 0 rgba(0, 0, 0, 0.05),
+		inset 0 -0.125rem 0 rgba(0, 0, 0, 0.1), inset 0 0.125rem 0 rgba(255, 255, 255, 0.3);
+}
+.ProgressBar_shelfCard_1d39 {
+	position: absolute;
+	bottom: 0;
+	z-index: 30;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.DataPointFeatured_dataPointFeatured_a7b4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DataPointFeatured_dataPointFeaturedSmallGamepad_3ad6 {
+	height: 5.525rem;
+	width: 5.525rem;
+}
+.DataPointFeatured_dataPointFeaturedSmallTouch_e708 {
+	height: 4.525rem;
+	width: 4.525rem;
+}
+.DataPointFeatured_dataPointFeaturedBig_4b9c {
+	height: 10.29rem;
+	width: 9.73rem;
+}
+.DataPointFeatured_frame_4163 {
+	background-image: linear-gradient(to right, #5fcd6a, #abe66e);
+	transform: rotate(45deg);
+}
+.DataPointFeatured_frameSmallGamepad_34ae {
+	width: 4.2rem;
+	height: 4.2rem;
+	box-shadow: inset 0 0.3rem rgba(255, 255, 255, 0.3), inset 0 -0.3rem rgba(0, 0, 0, 0.1),
+		inset 0.3rem 0 rgba(255, 255, 255, 0.3), inset -0.3rem 0 rgba(0, 0, 0, 0.05);
+}
+.DataPointFeatured_frameSmallTouch_a830 {
+	width: 3.2rem;
+	height: 3.2rem;
+	box-shadow: inset 0 0.25rem rgba(255, 255, 255, 0.3), inset 0 -0.25rem rgba(0, 0, 0, 0.1),
+		inset 0.25rem 0 rgba(255, 255, 255, 0.3), inset -0.25rem 0 rgba(0, 0, 0, 0.05);
+}
+.DataPointFeatured_frameBig_3546 {
+	margin-top: -0.5rem;
+	width: 6.88rem;
+	height: 6.88rem;
+	box-shadow: inset 0 0.75rem rgba(255, 255, 255, 0.3), inset 0 -0.75rem rgba(0, 0, 0, 0.1),
+		inset 0.75rem 0 rgba(255, 255, 255, 0.3), inset -0.75rem 0 rgba(0, 0, 0, 0.05), 0.38rem 0.38rem rgba(0, 0, 0, 0.15);
+}
+.DataPointFeatured_text_0cac {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-family: 'MinecraftTen';
+	flex-direction: row;
+	text-shadow: 0rem 0.19rem rgba(0, 0, 0, 0.25);
+}
+.DataPointFeatured_textSmallGamepad_69c0 {
+	font-size: 1.56rem;
+}
+.DataPointFeatured_textSmallTouch_c168 {
+	font-size: 1.5rem;
+	letter-spacing: 0.125rem;
+}
+.DataPointFeatured_textBig_b4fb {
+	margin-top: -0.5rem;
+	font-size: 4.38rem;
+	text-shadow: 0rem 0.38rem rgba(0, 0, 0, 0.25);
+	letter-spacing: 0.19rem;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.AchievementsCard_cardWrapper_92d3 {
+	height: 18.19rem;
+}
+.AchievementsCard_cardWrapperUnfocused_7d3f {
+	padding-top: 1.35rem;
+}
+.AchievementsCard_achievementsCard_b2c3 {
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+	width: 25.81rem;
+}
+.AchievementsCard_cardGamepad_33b8 {
+	animation-name: AchievementsCard_unFocused_473d;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsCard_cardGamepadFocused_a92a {
+	animation-name: AchievementsCard_focused_f883;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsCard_fill_1d53 {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	width: 25.81rem;
+	height: 9.81rem;
+	position: absolute;
+}
+.AchievementsCard_image_ea57 {
+	height: 9.81rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 0.188rem 0 0 rgba(255, 255, 255, 0.2), inset -0.188rem 0 0 rgba(255, 255, 255, 0.2),
+		inset 0 0.188rem 0 rgba(255, 255, 255, 0.2);
+	filter: grayscale(100%);
+}
+.AchievementsCard_imageAchieved_d1fa {
+	filter: none;
+}
+.AchievementsCard_contentContainer_9f2d {
+	height: 5.68rem;
+	background-color: #f2f2f2;
+	padding: 0 1.9rem 0 1.25rem;
+	justify-content: space-between;
+}
+.AchievementsCard_contentContainerGamepad_64ba {
+	animation-name: AchievementsCard_contentContainerCardUnFocused_367f;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsCard_contentContainerTouch_bd96 {
+	height: 6.5rem;
+}
+.AchievementsCard_contentContainerGamepadFocused_296e {
+	background-color: #ffffff;
+	padding: 1rem 1.9rem 1rem 1.25rem;
+	animation-name: AchievementsCard_contentContainerCardFocused_3a30;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsCard_title_e628 {
+	font-family: 'MinecraftFive';
+	color: #919191;
+	letter-spacing: 0.0938rem;
+}
+.AchievementsCard_titleTouch_01c1 {
+	font-size: 0.9rem;
+}
+.AchievementsCard_titleGamepad_2d53 {
+	font-size: 1.06rem;
+}
+.AchievementsCard_titleGamepadFocused_d7f6 {
+	color: #4f4f4f;
+}
+.AchievementsCard_date_1d73 {
+	font-family: 'MinecraftFive';
+	font-size: 0.9rem;
+	color: #b6b6b6;
+	letter-spacing: 0.094rem;
+}
+.AchievementsCard_dateTouch_a7fb {
+	font-size: 0.8rem;
+}
+.AchievementsCard_score_e648 {
+	font-family: 'MinecraftTen';
+	font-size: 1.5rem;
+	color: #919191;
+	flex-direction: row;
+}
+.AchievementsCard_scoreAchieved_f9ca {
+	color: #5fcd6a;
+}
+.AchievementsCard_scoreTransition_db92 {
+	position: absolute;
+	top: 1.8rem;
+	animation-name: AchievementsCard_opacityHide_2469;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsCard_body_ea6f {
+	width: 100%;
+	padding-top: 2rem;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.AchievementsCard_bodyTouch_2725 {
+	padding-top: 1.2rem;
+}
+.AchievementsCard_bodyFocused _e43a {
+	width: 19rem;
+	padding-top: 1rem;
+}
+.AchievementsCard_bodyAchievedGamepad_0b75 {
+	padding-top: 0.15rem;
+}
+.AchievementsCard_bodyAchievedTouch_62db {
+	padding-top: 0.7rem;
+}
+.AchievementsCard_bodyText_e6a5 {
+	width: 20rem;
+}
+.AchievementsCard_bodyTextFocused_a056 {
+	animation-name: AchievementsCard_opacityShow_c38d;
+	animation-duration: 1.2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsCard_description_a5e0 {
+	font-family: 'Noto Sans';
+	color: #4f4f4f;
+	line-height: 130%;
+}
+.AchievementsCard_descriptionGamepad_25d3 {
+	font-size: 1rem;
+	margin-top: 0.4rem;
+}
+.AchievementsCard_descriptionTouch_d23c {
+	font-size: 0.9rem;
+	margin-top: 0.3rem;
+}
+.AchievementsCard_dataPointFeaturedTouch_a741 {
+	top: -2.6rem;
+	right: -1em;
+}
+.AchievementsCard_dataPointFeaturedGamepad_250e {
+	opacity: 0;
+	animation-name: AchievementsCard_opacityShow_c38d;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+}
+@keyframes AchievementsCard_opacityShow_c38d {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes AchievementsCard_opacityHide_2469 {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes AchievementsCard_contentContainerCardFocused_3a30 {
+	0% {
+		height: 5.68rem;
+	}
+	100% {
+		height: 8.38rem;
+	}
+}
+@keyframes AchievementsCard_contentContainerCardUnFocused_367f {
+	0% {
+		height: 8.38rem;
+	}
+	100% {
+		height: 5.68rem;
+	}
+}
+@keyframes AchievementsCard_focused_f883 {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
+	}
+}
+@keyframes AchievementsCard_unFocused_473d {
+	0% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+/**
+* Variants
+* Important! Keep the variants at the top of the file
+*/
+.Typography_dataPointNumber_efad {
+	color: #ffffff;
+	font-family: 'MinecraftTen';
+	font-size: 2.19rem;
+}
+.Typography_dataPointLabelText_34cb {
+	color: #ffffff;
+	font-family: 'MinecraftFive';
+	font-size: 1rem;
+	letter-spacing: 0.2em;
+}
+.Typography_healthText_4642 {
+	font-family: 'MinecraftTen';
+	font-size: 1.5rem;
+}
+.Typography_heroTitle_a724 {
+	color: #ffffff;
+	font-family: 'MinecraftTen';
+	font-size: 5.5rem;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.5);
+	letter-spacing: 0.0363em;
+}
+.Typography_heroVignette_93c3 {
+	color: #ffffff;
+	font-family: 'MinecraftFive';
+	font-size: 1.75rem;
+	letter-spacing: 0.1144em;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.5);
+}
+.Typography_heroLabel_a430 {
+	color: #ffffff;
+	font-family: 'MinecraftSeven';
+	font-size: 2.25rem;
+	letter-spacing: 0.04em;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.5);
+}
+.Typography_sampleTextStyle_f505 {
+	font-family: 'MinecraftTen';
+	color: #4f8cb4;
+	font-size: 3rem;
+	margin-top: 0.5rem;
+}
+.Typography_shelfHeader_c139 {
+	color: #ffffff;
+	font-family: 'MinecraftFive';
+	font-size: 1.85rem;
+	letter-spacing: 0.135em;
+	text-shadow: 0 0.16em rgba(0, 0, 0, 0.5), 0 0 1.25rem rgba(0, 0, 0, 0.25);
+}
+.Typography_shelfHeaderInverted_374d {
+	color: #333333;
+	font-family: 'MinecraftFive';
+	font-size: 1.85rem;
+	letter-spacing: 0.05em;
+}
+.Typography_shelfCardTitle_bf6a {
+	font-family: 'MinecraftSeven';
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.25);
+	opacity: 0.75;
+	line-height: 1.94rem;
+}
+.Typography_shelfCardTitleInverted_4941 {
+	color: #333333;
+	font-family: 'MinecraftSeven';
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.94rem;
+}
+.Typography_shelfCardTitleFocused_d7b9 {
+	font-family: 'MinecraftSeven';
+	letter-spacing: 0.1rem;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.25);
+	font-size: 2rem;
+	opacity: 1;
+	line-height: 2.4rem;
+}
+.Typography_shelfCardTitleFocusedInverted_65c4 {
+	color: #333333;
+	font-family: 'MinecraftSeven';
+	letter-spacing: 0.1rem;
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+.Typography_shelfCardEndLabel_26a7 {
+	font-family: 'MinecraftTen';
+	font-size: 2.3rem;
+	letter-spacing: 0.1rem;
+	color: #4f8cb4;
+}
+.Typography_mainMenuTileLabel_9a65 {
+	color: #ffffff;
+	font-family: 'MinecraftTen';
+	font-size: 2rem;
+	letter-spacing: 0.09em;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.5);
+}
+.Typography_modalVignette_0fc8 {
+	font-family: 'MinecraftFive';
+	color: #737373;
+	font-size: 1.5rem;
+	letter-spacing: 0.1em;
+}
+.Typography_modalTitle_cdca {
+	font-family: 'MinecraftTen';
+	color: #2e2e2e;
+	font-size: 3rem;
+	letter-spacing: 0.0666em;
+}
+.Typography_modalQuestion_e1d5 {
+	font-family: 'MinecraftTen';
+	color: #2e2e2e;
+	font-size: 2.25rem;
+	margin-top: 1rem;
+}
+.Typography_headerTitle_32e1 {
+	font-family: 'MinecraftTen';
+	color: #ffffff;
+	font-size: 3.13rem;
+	letter-spacing: 0.188rem;
+	text-shadow: 0 0.3125rem rgba(0, 0, 0, 0.25);
+}
+.Typography_patchNotesTitle_bd9e {
+	font-family: 'MinecraftTen';
+	color: #2e2e2e;
+	font-size: 4.375rem;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+.Typography_patchNotesIngress_a883 {
+	font-family: 'Noto Sans';
+	color: #2e2e2e;
+	font-size: 2.2rem;
+	letter-spacing: 0.02em;
+	line-height: 2.8rem;
+	font-weight: bold;
+}
+.Typography_patchNotesBody_e600 {
+	font-family: 'Noto Sans';
+	color: #2e2e2e;
+	font-size: 1.5rem;
+	letter-spacing: 0.04em;
+	line-height: 2rem;
+}
+/**
+* Modifiers
+* Important! Keep these after the variants! That way the CSS will override the properties in the variants.
+*/
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.AchievementsShelfCard_achievementsShelfCardWrapper_8861 {
+	height: 27rem;
+	padding-top: 2rem;
+}
+.AchievementsShelfCard_achievementsShelfCardWrapperFocused_5e33 {
+	padding-top: 7rem;
+}
+.AchievementsShelfCard_achievementsShelfCard_e1d4 {
+	align-items: center;
+	width: 26.67rem;
+}
+.AchievementsShelfCard_achievementsShelfCardFocused_7b63 {
+	animation-name: AchievementsShelfCard_focused_2553;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsShelfCard_achievementsShelfCardUnFocused_b1d7 {
+	animation-name: AchievementsShelfCard_unFocused_1aca;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.AchievementsShelfCard_imageContainer_37ea {
+	width: 26.67rem;
+	height: 15rem;
+	margin-bottom: 0.5rem;
+	/* Blur needs to be static */
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.15); /* stylelint-disable-line unit-whitelist */
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 75%);
+}
+.AchievementsShelfCard_imageContainerFocused_c5c1 {
+	margin-bottom: 0rem;
+	background-image: none;
+	/* Blur needs to be static */
+	box-shadow: 0 2rem 15px -1.25rem rgba(0, 0, 0, 0.25); /* stylelint-disable-line unit-whitelist */
+	animation-name: AchievementsShelfCard_ImageContainerFocused_6899;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	transform-origin: center center;
+}
+.AchievementsShelfCard_imageContainerUnFocused_9503 {
+	animation-name: AchievementsShelfCard_ImageContainerUnFocused_5366;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	transform-origin: center center;
+}
+.AchievementsShelfCard_image_5558 {
+	width: 100%;
+	height: 100%;
+	background-size: 106%;
+	background-position: 56% 52%;
+	box-shadow: inset 0rem 0.5rem 0 -0.25rem rgba(255, 255, 255, 0.2);
+	filter: brightness(105%) contrast(75%);
+	filter: grayscale(100%);
+}
+.AchievementsShelfCard_imageFocused_5bdd {
+	/* Blur needs to be static */
+	box-shadow: inset 0 -7rem 45px -3rem rgba(0, 0, 0, 0.45), inset 0 0.3rem 0 -0.15rem rgba(255, 255, 255, 0.2); /* stylelint-disable-line unit-whitelist */
+	filter: brightness(100%) contrast(100%);
+	filter: grayscale(100%);
+}
+.AchievementsShelfCard_text_788e {
+	max-width: 26.67rem;
+	align-self: flex-start;
+}
+.AchievementsShelfCard_textFocused_e665 {
+	position: absolute;
+	bottom: -2.0125rem;
+	max-width: 28rem;
+	z-index: 10;
+	left: 2rem;
+}
+.AchievementsShelfCard_score_73ba {
+	font-family: 'MinecraftTen';
+	letter-spacing: 0.2rem;
+	position: absolute;
+	bottom: -2.0125rem;
+	right: 2rem;
+	font-size: 2.7rem;
+	opacity: 1;
+	line-height: 2.4rem;
+	max-width: 28rem;
+	flex-direction: row;
+}
+.AchievementsShelfCard_overlay_6419 {
+	position: absolute;
+	z-index: 30;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+@keyframes AchievementsShelfCard_focused_2553 {
+	0% {
+		width: 26.67rem;
+	}
+	100% {
+		width: 42.67rem;
+	}
+}
+@keyframes AchievementsShelfCard_unFocused_1aca {
+	0% {
+		width: 42.67rem;
+	}
+	100% {
+		width: 26.67rem;
+	}
+}
+@keyframes AchievementsShelfCard_ImageContainerFocused_6899 {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.6);
+	}
+}
+@keyframes AchievementsShelfCard_ImageContainerUnFocused_5366 {
+	0% {
+		transform: scale(1.6);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.Button_button_0e35 {
+	padding: 0.7rem 2.8rem;
+	font-family: 'MinecraftTen';
+}
+.Button_labelContainer_ac60 {
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.Button_flat_597c {
+	font-size: 1.875rem;
+	color: #4f4f4f;
+}
+.Button_bumpy_1748 {
+	font-size: 2rem;
+	box-shadow: inset 0 0.25rem rgba(255, 255, 255, 0.3), inset 0 -0.25rem rgba(0, 0, 0, 0.1),
+		inset 0.25rem 0 rgba(0, 0, 0, 0.05), inset -0.25rem 0 rgba(0, 0, 0, 0.05);
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.25);
+	letter-spacing: 0.1rem;
+}
+.Button_blocky_3432 {
+	padding: 1.1rem 5.2rem;
+	font-size: 2.4rem;
+	text-shadow: 0 0.3rem rgba(0, 0, 0, 0.3);
+	letter-spacing: 0.0625rem;
+	line-height: 3rem;
+}
+.Button_primary_8425 {
+	background-color: #d8f0ff;
+	color: #337fb1;
+	text-shadow: 0 0.2rem rgba(51, 127, 177, 0.25);
+}
+.Button_primaryFocused_ef0f {
+	background-color: #5ea3d1;
+	color: #ffffff;
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.25);
+}
+.Button_primaryClicked_7c4d {
+	background-color: #4f8cb4;
+	color: #ffffff;
+	box-shadow: inset 0 0.25rem rgba(0, 0, 0, 0.1), inset 0 -0.25rem rgba(255, 255, 255, 0.3),
+		inset 0.25rem 0 rgba(0, 0, 0, 0.05), inset -0.25rem 0 rgba(0, 0, 0, 0.05);
+	text-shadow: 0 0.035em rgba(0, 0, 0, 0.25);
+}
+.Button_secondary_2d89 {
+	background-color: #e8e8e8;
+	color: #4f4f4f;
+}
+.Button_secondaryFocused_ef67 {
+	background-color: #b6b6b6;
+	color: #ffffff;
+}
+.Button_secondaryClicked_2d5d {
+	background-color: #919191;
+	color: #ffffff;
+	box-shadow: inset 0 0.25rem rgba(0, 0, 0, 0.1), inset 0 -0.25rem rgba(255, 255, 255, 0.3),
+		inset 0.25rem 0 rgba(0, 0, 0, 0.05), inset -0.25rem 0 rgba(0, 0, 0, 0.05);
+}
+.Button_cta_b5a4 {
+	background-color: #44d93e;
+	color: #ffffff;
+}
+.Button_ctaFocused_403e {
+	background-color: #35b030;
+	color: #ffffff;
+}
+.Button_ctaClicked_980a {
+	background-color: #2a8326;
+	color: #ffffff;
+	box-shadow: inset 0 0.25rem rgba(0, 0, 0, 0.1), inset 0 -0.25rem rgba(255, 255, 255, 0.3),
+		inset 0.25rem 0 rgba(0, 0, 0, 0.05), inset -0.25rem 0 rgba(0, 0, 0, 0.05);
+}
+.Button_neutralFocused_c478 {
+	background-color: #5ea3d1;
+	color: #ffffff;
+}
+.Button_neutralClicked_e67d {
+	background-color: #4986ae;
+	color: #ffffff;
+}
+.Button_destructiveFocused_56e0 {
+	background-color: #f5542f;
+	color: #ffffff;
+}
+.Button_destructiveClicked_f6ed {
+	background-color: #d73611;
+	color: #ffffff;
+}
+.Button_hero_508c {
+	background-image: linear-gradient(0.3deg, #c4bab7, #95979f);
+	box-shadow: inset 0 -0.25rem rgba(255, 255, 255, 0.3), inset 0 0.25rem rgba(255, 255, 255, 0.3),
+		inset -0.25rem 0 rgba(255, 255, 255, 0.3), inset 0.25rem 0 rgba(255, 255, 255, 0.3);
+}
+.Button_heroFocused_49b9 {
+	background: linear-gradient(0deg, #abe66e, #5fcd6a);
+	box-shadow: inset 0 -0.25rem rgba(255, 255, 255, 0.3), inset 0 0.25rem rgba(255, 255, 255, 0.3),
+		inset -0.25rem 0 rgba(255, 255, 255, 0.3), inset 0.25rem 0 rgba(255, 255, 255, 0.3);
+	animation-name: Button_hero-button-bounce_d774;
+}
+.Button_heroClicked_f744 {
+	background: linear-gradient(0.2deg, #42a854, #47895b);
+	animation-name: Button_none_bb01;
+}
+.Button_bottomEdge_cf35 {
+	display: none;
+}
+.Button_bottomEdgeHeroVisible_37b9 {
+	display: block;
+	height: 0.75rem;
+	background: linear-gradient(-0.3deg, #5a5b6c, #696a72);
+}
+.Button_bottomEdgeHeroFocused_5fe0 {
+	background: linear-gradient(0.2deg, #42a854, #47895b);
+}
+.Button_bottomEdgeHeroClicked_b115 {
+	height: 0;
+}
+.Button_containerHeroBounce_6c53 {
+	box-shadow: 0 0 0 0.15rem #696a72;
+
+	animation-name: Button_none_bb01;
+	animation-duration: 3s;
+	animation-delay: 1.2s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+.Button_containerHeroBounceFocused_74a8 {
+	box-shadow: 0 0 0 0.15rem #568a5c;
+	animation-name: Button_hero-button-bounce_d774;
+}
+.Button_containerHeroBounceClicked_1d99 {
+	margin-top: 0.75rem;
+	animation-name: Button_none_bb01;
+}
+@keyframes Button_hero-button-bounce_d774 {
+	0% {
+		transform: scale(1);
+	}
+	5% {
+		transform: scale(1.05);
+	}
+	10% {
+		transform: scale(1);
+	}
+	15% {
+		transform: scale(1.05);
+	}
+	20% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.ActionOverlay_actionOverlay_d31e {
+	background-color: rgba(255, 0, 0, 0.3);
+	height: 100%;
+}
+
+.ActionOverlay_textContainer_edef {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100vw;
+	height: 45vh;
+}
+
+.ActionOverlay_buttonContainer_332d {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.ActionOverlay_firstButton_d234 {
+	margin-right: 2rem;
+}
+
+.Avatar_avatar_b57b {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+:root {
+	/* Borders with relative units get rounding issues and start flickering when they are calculated to be in between two pixels. */ /* stylelint-disable-line unit-whitelist */
+}
+
+.ButtonGroup_sideBySide_e139 {
+	flex-direction: row;
+}
+
+.ButtonGroup_flat_2edd {
+	margin-top: 0;
+}
+
+.ButtonGroup_flatSidebyside_1067 {
+	width: 50%;
+}
+
+.ButtonGroup_flatStacked_8d41 {
+	margin-top: -1px;
+}
+
+.ButtonGroup_stackedBorder_1c27 {
+	width: 97%;
+	border-top: 1px solid #b6b6b6;
+	align-self: center;
+	margin-top: -1px;
+}
+
+.ButtonGroup_sidebysideBorder_1556 {
+	width: 97%;
+	border-top: 1px solid #b6b6b6;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+}
+
+.ButtonGroup_bumpyWithoutMargin_b070 {
+	margin-top: 0;
+}
+
+.ButtonGroup_bumpyWithMargin_2ff1 {
+	margin-top: 1rem;
+}
+
+.ButtonGroup_orderShared_a750 {
+	animation-name: ButtonGroup_openKeyframes_373f;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.ButtonGroup_childWrapper_b743 {
+	z-index: 1;
+}
+
+.ButtonGroup_order0_3cf6 {
+	animation-duration: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.ButtonGroup_order1_5613 {
+	animation-duration: 0.225s;
+	animation-delay: 0.225s;
+}
+
+.ButtonGroup_order2_6222 {
+	animation-duration: 0.25s;
+	animation-delay: 0.25s;
+}
+
+.ButtonGroup_order3_f7e4 {
+	animation-duration: 0.275s;
+	animation-delay: 0.275s;
+}
+
+.ButtonGroup_order4_a46d {
+	animation-duration: 0.3s;
+	animation-delay: 0.3s;
+}
+
+.ButtonGroup_order5_4d53 {
+	animation-duration: 0.325s;
+	animation-delay: 0.325s;
+}
+
+.ButtonGroup_order6_753e {
+	animation-duration: 0.35s;
+	animation-delay: 0.35s;
+}
+
+.ButtonGroup_order7_6775 {
+	animation-duration: 0.375s;
+	animation-delay: 0.375s;
+}
+
+.ButtonGroup_order8_05d2 {
+	animation-duration: 0.4s;
+	animation-delay: 0.4s;
+}
+
+.ButtonGroup_order9_206e {
+	animation-duration: 0.425s;
+	animation-delay: 0.425s;
+}
+
+@keyframes ButtonGroup_openKeyframes_373f {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	80% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.CenteredContent_centeredContentTV_27ba {
+	padding: 0 9.3rem;
+}
+
+.CenteredContent_centeredContentDesktop_af67 {
+	padding: 0 9.3rem;
+}
+
+.CenteredContent_centeredContentHandheld_c2d0 {
+	padding: 0 3.3rem;
+}
+
+.CenteredContent_row_94a6 {
+	flex-direction: row;
+}
+
+.DataPointCollection_dataPointCollection_a766 {
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.DataPointCollection_dataPointLeft_d73a {
+	margin-right: 6rem;
+}
+
+.DataPointCollection_dataPointLeftMiddle_0d8c {
+	margin-right: 0rem;
+}
+
+.DataPointCollection_dataPointRight_660d {
+	margin-left: 6rem;
+}
+
+.DataPointCollection_dataPointLast_4ef0 {
+	margin-left: 0rem;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.DataPointLabeled_dataPointLabeled_64fd {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DataPointLabeled_wrapper_8981 {
+	flex-direction: row;
+}
+.DataPointLabeled_slash_09d9 {
+	color: #ffffff;
+	font-family: 'Noto Sans';
+	font-size: 2.19rem;
+	padding: 0 0.6rem;
+	line-height: 2.56rem;
+}
+.DataPointLabeled_labelText_271f {
+	margin-top: 0.2rem;
+}
+
+.FixedGrid_fixedGrid_e455 {
+	width: 87.93rem; /* FIXME replace with javascript */
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.FixedGrid_otherColumn_2768 {
+	margin-left: 5.25rem;
+}
+
+.FixedGrid_otherRow_2d28 {
+	margin-top: 5.25rem;
+}
+
+.FullScreenImage_fullScreenImage_1d66 {
+	background-size: cover;
+	height: 100vh;
+}
+
+.FullScreenImage_blured_1ee9 {
+	/*The blur amount should be static no matter the screen scale */
+	filter: blur(5px); /* stylelint-disable-line unit-whitelist */
+}
+
+.HeaderLayout_headerLayout_bd0d {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-image: url(/assets/achievementsBackground.png);
+}
+
+.HeaderLayout_children_b51c {
+	align-items: center;
+	overflow: auto;
+	padding-top: 5.313rem;
+	padding-bottom: 50vh;
+	width: 100%;
+	height: 100%;
+}
+
+.HeaderLayout_header_0f4d {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 5.313rem;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+}
+
+.HeaderLayout_headerBackground_122a {
+	position: absolute;
+	top: -5%;
+	left: 0;
+	right: 0;
+	height: 105%;
+	background-image: url(/assets/achievementsBackground.png);
+}
+
+.HeaderLayout_headerBackgroundBlurred_9d4b {
+	/*The blur amount should be static no matter the screen scale */
+	filter: blur(3px); /* stylelint-disable-line unit-whitelist */
+}
+
+.HeaderLayout_headerBackgroundGradient_20e8 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+
+.HeaderLayout_headerBackgroundGradientBright_cad2 {
+	background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+}
+
+.HeaderLayout_headerBackgroundGradientBrighter_fcb7 {
+	background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
+}
+
+.HealthText_healthText_e9ab {
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.HealthText_textContainer_f2d1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 15rem;
+	height: 5rem;
+}
+
+.Space_space_4fe8 {
+	width: 100%;
+}
+
+.Space_tiny_0f2c {
+	padding-top: 0.5rem;
+}
+
+.Space_small_732c {
+	padding-top: 1rem;
+}
+
+.Space_medium_7212 {
+	padding-top: 2rem;
+}
+
+.Space_large_3355 {
+	padding-top: 4rem;
+}
+
+.Space_huge_b189 {
+	padding-top: 7rem;
+}
+
+.Space_gargantuan_f5d1 {
+	padding-top: 10rem;
+}
+
+.Space_colossal_791f {
+	padding-top: 15rem;
+}
+
+.Hero_hero_263a {
+	align-items: center;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.Icon_icon_128e {
+	width: 1em;
+	height: 1em;
+}
+.Icon_large_cba6 {
+	width: 2em;
+	height: 2em;
+}
+.Icon_arrow_0b55 {
+	width: 2.159rem;
+	height: 1.25rem;
+}
+.Icon_arrowLeft_8d3f {
+	width: 1.6875rem;
+	height: 2.875rem;
+}
+.Icon_arrowRight_c6c9 {
+	width: 2.159rem;
+	height: 1.25rem;
+	transform: rotate(90deg);
+	margin-left: 0.5rem;
+	filter: drop-shadow(0.3em 0 rgba(0, 0, 0, 0.5));
+}
+.Icon_external_ac0b {
+	margin-left: 0.3125rem;
+}
+
+.HeroIndicator_heroIndicator_52de {
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.HeroIndicator_rectangle_d667 {
+	width: 18.125rem;
+	height: 0.3125rem;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+.HeroIndicator_rectangleMove_c5f9 {
+	animation-name: HeroIndicator_RectangleMoveUp_3eb2;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes HeroIndicator_RectangleMoveUp_3eb2 {
+	0% {
+		opacity: 0;
+		top: 21.875rem;
+	}
+	30% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		top: 0rem;
+	}
+}
+
+.HeroIndicator_arrow_0774 {
+	filter: drop-shadow(0 0.19rem rgba(0, 0, 0, 0.5));
+	margin-top: 1.3rem;
+	opacity: 0;
+}
+
+.HeroIndicator_arrowMove_ad19 {
+	animation-name: HeroIndicator_ArrowMoveUp_e3b4, HeroIndicator_ArrowBounce_e8a3;
+	animation-duration: 0.5s, 2s;
+	animation-iteration-count: 1, infinite;
+	animation-delay: 0.3s, 0.8s;
+	animation-timing-function: linear, linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes HeroIndicator_ArrowMoveUp_e3b4 {
+	0% {
+		opacity: 0;
+		top: 6.25rem;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		top: 0rem;
+	}
+}
+
+@keyframes HeroIndicator_ArrowBounce_e8a3 {
+	0% {
+		transform: translateY(0rem);
+		animation-timing-function: ease-out;
+	}
+
+	25% {
+		transform: translateY(-0.35rem);
+		animation-timing-function: ease-in;
+	}
+
+	50% {
+		transform: translateY(0rem);
+		animation-timing-function: ease-out;
+	}
+
+	75% {
+		transform: translateY(-0.35rem);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: translateY(0rem);
+	}
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.IllustrationHelp_illustrationHelp_8703 {
+	background-image: linear-gradient(#586796, #7282b6);
+	box-shadow: 0 0.8rem #404a6b;
+	margin-top: -0.4rem;
+	width: 100%;
+	height: 100%;
+}
+.IllustrationHelp_image_9a4a {
+	width: 100%;
+	height: 100%;
+}
+
+.Section_section_816d {
+	min-height: 50vh;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem 0;
+}
+
+.Section_first_7172 {
+	min-height: 25vh;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem 0;
+}
+
+.LandingPageLayout_landingPageLayout_4ed6 {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-image: linear-gradient(
+		180deg,
+		rgb(11, 25, 33) 0%,
+		rgb(16, 33, 45) 1.96%,
+		rgb(9, 68, 113) 25.26%,
+		rgb(0, 98, 159) 37.57%,
+		rgb(0, 98, 159) 48.66%,
+		rgb(31, 123, 178) 60.23%,
+		rgb(36, 126, 180) 100%
+	);
+}
+
+.LandingPageLayout_headerWrapper_410d {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+.LandingPageLayout_heroIndicatorWrapper_37a4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+.LandingPageLayout_contentWrapper_7a2a {
+	z-index: 5;
+}
+
+.LandingPageLayout_childrenTopPaddingRegular_1579 {
+	height: 7rem;
+}
+
+.LandingPageLayout_childrenTopPaddingLarge_fcfa {
+	height: 36vh;
+}
+
+.LandingPageLayout_aboveFoldBackground_dd0e {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	transform-origin: center;
+	z-index: 4;
+}
+
+.LandingPageLayout_overlay_a233 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.LandingPageLayout_aboveFoldWrapper_96ef {
+	overflow: hidden;
+	height: 50vh;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25vh;
+	margin-bottom: 6.25vh;
+}
+
+.LandingPageLayout_scrollableHeaderWrapper_a4b6 {
+	margin-top: -25vh;
+}
+
+.LandingPageLayout_fadedAway_e517 {
+	animation-name: LandingPageLayout_LandingPageLayoutFadedAway_8f7a;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+}
+
+.LandingPageLayout_dismissedLeft_aa87 {
+	animation-name: LandingPageLayout_LandingPageLayoutDismissedLeft_0955;
+	animation-direction: normal;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+}
+
+.LandingPageLayout_dismissedLeftReturn_55e6 {
+	animation-name: LandingPageLayout_LandingPageLayoutDismissedLeftReturn_0de6;
+	animation-direction: reverse;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+}
+
+@keyframes LandingPageLayout_LandingPageLayoutFadedAway_8f7a {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes LandingPageLayout_LandingPageLayoutDismissedLeft_0955 {
+	0% {
+		transform: translateX(0vw);
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(-50vw);
+		opacity: 0;
+	}
+}
+
+@keyframes LandingPageLayout_LandingPageLayoutDismissedLeftReturn_0de6 {
+	0% {
+		transform: translateX(0vw);
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(-50vw);
+		opacity: 0;
+	}
+}
+
+.LandingPageLayout_parallax_a7a7 {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/*The perspective should be static no matter the screen scale */
+	perspective: 100px; /* stylelint-disable-line unit-whitelist */
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+.LandingPageLayout_parallaxChildren_accd {
+	z-index: 2;
+}
+
+.LandingPageLayout_parallaxLayer1_f811 {
+	position: absolute;
+	left: 0;
+	width: 100vw;
+	height: 78vw;
+	background-size: cover;
+	background-image: url(/assets/Haze.png);
+}
+
+.LandingPageLayout_parallaxLayer1Top_2c13 {
+	top: 0vh;
+}
+
+.LandingPageLayout_parallaxLayer1Under_0464 {
+	top: 100vh;
+}
+
+.LandingPageLayout_parallaxLayer2_6fef {
+	position: absolute;
+	left: 0;
+	width: 100vw;
+	height: 12vw;
+	background-size: cover;
+	background-image: url(/assets/Mountains2.png);
+	/* Static animation for now */
+	transform: translateZ(-80px) scale(1.8); /* stylelint-disable-line unit-whitelist */
+}
+
+.LandingPageLayout_parallaxLayer2Top_611c {
+	top: 76vh;
+}
+
+.LandingPageLayout_parallaxLayer2Under_7845 {
+	top: 167vh;
+}
+
+.LandingPageLayout_parallaxLayer3_2f9e {
+	position: absolute;
+	left: 0;
+	width: 100vw;
+	height: 24vw;
+	background-size: cover;
+	background-image: url(/assets/Mountains1.png);
+	/* Static animation for now */
+	transform: translateZ(-50px) scale(1.5); /* stylelint-disable-line unit-whitelist */
+}
+
+.LandingPageLayout_parallaxLayer3Top_4232 {
+	top: 70vh;
+}
+
+.LandingPageLayout_parallaxLayer3Under_2a94 {
+	top: 153vh;
+}
+
+.LandingPageLayout_parallaxLayer4_7572 {
+	position: absolute;
+	left: 0;
+	width: 100vw;
+	height: 51vw;
+	background-size: cover;
+	background-image: url(/assets/Plains.png);
+	/* Static animation for now */
+	transform: translateZ(-30px) scale(1.3); /* stylelint-disable-line unit-whitelist */
+}
+
+.LandingPageLayout_parallaxLayer4Top_f381 {
+	top: 70vh;
+}
+
+.LandingPageLayout_parallaxLayer4Under_797b {
+	top: 153vh;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.MainMenuTile_mainMenuTile_a60b {
+	position: relative;
+	align-items: center;
+	width: 18.125rem;
+}
+.MainMenuTile_focusedTitle _9f3a {
+	transform: scale(1.25);
+}
+.MainMenuTile_body_44bc {
+	background-image: linear-gradient(-0.3deg, #5a5b6c, #696a72);
+	margin-bottom: 1rem;
+	width: 18.125rem;
+	/* Borders with relative units get rounding issues and start flickering when they are calculated to be in between two pixels. */
+	border: 2px solid #696a72; /* stylelint-disable-line unit-whitelist */
+}
+.MainMenuTile_bodyFocused_8e68 {
+	background-image: linear-gradient(0.1deg, #568a5c, #c2f169);
+	/* Borders with relative units get rounding issues and start flickering when they are calculated to be in between two pixels. */
+	border: 2px solid #568a5c; /* stylelint-disable-line unit-whitelist */
+}
+.MainMenuTile_bodyTop_da02 {
+	width: 100%;
+	height: 21.75rem;
+	background-image: linear-gradient(0.3deg, #c4bab7, #95979f);
+	justify-content: center;
+	align-items: center;
+	/* Borders with relative units get rounding issues and start flickering when they are calculated to be in between two pixels. */
+	border: 2px solid #a7a9b1; /* stylelint-disable-line unit-whitelist */
+}
+.MainMenuTile_bodyTopFocused_e484 {
+	background-image: linear-gradient(0deg, #abe66e, #5fcd6a);
+	height: 25rem;
+	/* Borders with relative units get rounding issues and start flickering when they are calculated to be in between two pixels. */
+	border: 2px solid #89dd6f; /* stylelint-disable-line unit-whitelist */
+}
+.MainMenuTile_bodyTopFocusedPressed_130a {
+	height: 25rem;
+	background-image: linear-gradient(0.1deg, #c2f169, #568a5c);
+}
+.MainMenuTile_bodyBottom_41af {
+	background-image: linear-gradient(-0.2deg, #9a9391, #857f86);
+	height: 1.25rem;
+}
+.MainMenuTile_bodyBottomFocused_5684,
+.MainMenuTile_bodyBottomFocusedPressed_6316 {
+	background-image: linear-gradient(0.2deg, #42a854, #47895b);
+}
+.MainMenuTile_img_f1bb {
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: drop-shadow(0 0.5rem 0 rgba(0, 0, 0, 0.15));
+}
+.MainMenuTile_imgHidden_95e7 {
+	display: none;
+}
+.MainMenuTile_imgNewWorld_437c {
+	width: 13.56rem;
+	height: 15.06rem;
+	background-image: url(/assets/newWorldStart.png);
+}
+.MainMenuTile_imgStore_a713 {
+	width: 13.5rem;
+	height: 14.9rem;
+	background-image: url(/assets/storeStart.png);
+}
+.MainMenuTile_imgProfile_6b5e {
+	width: 12.05rem;
+	height: 17rem;
+	background-image: url(/assets/profileStart.png);
+}
+.MainMenuTile_imgAchievements_4488 {
+	width: 8.875rem;
+	height: 12.67rem;
+	background-image: url(/assets/achievementsStart.png);
+}
+.MainMenuTile_imgSettings_7058 {
+	width: 14.25rem;
+	height: 10.125rem;
+	background-image: url(/assets/settingsStart.png);
+}
+.MainMenuTile_bodyAnimation_8684 {
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.MainMenuTile_bodyAnimationNewWorld_f6a5 {
+	background-image: url(/assets/newWorldStart.png);
+	width: 13.56rem;
+	height: 15.06rem;
+	top: 3.5rem;
+}
+.MainMenuTile_bodyAnimationStore_5434 {
+	background-image: url(/assets/storeStart.png);
+	width: 13.56rem;
+	height: 14.9rem;
+	top: 3.56rem;
+}
+.MainMenuTile_bodyAnimationProfile_f653 {
+	background-image: url(/assets/profileStart.png);
+	width: 13.56rem;
+	height: 19.125rem;
+	top: 1.44rem;
+}
+.MainMenuTile_bodyAnimationAchievements_9243 {
+	background-image: url(/assets/achievementsStart.png);
+	width: 8.875rem;
+	height: 12.67rem;
+	top: 4.625rem;
+}
+.MainMenuTile_bodyAnimationSettings_7b23 {
+	background-image: url(/assets/settingsStart.png);
+	width: 14.25rem;
+	height: 10.125rem;
+	top: 5.94rem;
+}
+.MainMenuTile_imgFadeOut_5510 {
+	animation-name: MainMenuTile_MainMenuTileImgFadeOut_f7ec;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-duration: 200ms;
+}
+.MainMenuTile_imgTransitionAnimated_f776 {
+	animation-name: MainMenuTile_MainMenuTileImgAnimated_8b43;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-duration: 100ms;
+}
+.MainMenuTile_imgNewWorldTransitionAnimated_01dd {
+	background-image: url(/assets/newWorldEnd.png);
+	width: 19.19rem;
+	height: 27.31rem;
+	background-size: cover;
+	top: 0.5rem;
+}
+.MainMenuTile_imgStoreTransitionAnimated_c41a {
+	background-image: url(/assets/storeEnd.png);
+	width: 27rem;
+	height: 28.06rem;
+	background-size: cover;
+	top: -5.81rem;
+	left: -4.875rem;
+}
+.MainMenuTile_imgProfileTransitionAnimated_a078 {
+	background-image: url(/assets/profileEnd.png);
+	width: 14.136rem;
+	height: 20rem;
+	background-size: cover;
+	top: 2rem;
+}
+.MainMenuTile_imgAchievementsTransitionAnimated_605c {
+	background-image: url(/assets/achievementsEnd.png);
+	width: 22rem;
+	height: 14.8rem;
+	background-size: cover;
+	top: 4.19rem;
+}
+.MainMenuTile_imgSettingsTransitionAnimated_6dd8 {
+	background-image: url(/assets/settingsEnd.png);
+	width: 12.89rem;
+	height: 20rem;
+	background-size: cover;
+	top: 1.5rem;
+}
+@keyframes MainMenuTile_MainMenuTileImgFadeOut_f7ec {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+}
+@keyframes MainMenuTile_MainMenuTileImgAnimated_8b43 {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+:root {
+	/*
+	 * Extra breathing area above the component to allow the content
+	 * inside to "overflow" even when we are doing "overflow" hidden.
+	 */
+}
+
+.MainMenuTileList_mainMenuTileList_f321 {
+	flex-direction: row;
+	width: 100%;
+	margin-top: -6rem;
+	padding-top: 6rem;
+}
+
+.MainMenuTileList_cardWrapper_d916 {
+	padding-left: 4rem;
+}
+
+.MainMenuTileList_centered_46fc {
+	height: 30rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.MainMenuTileList_leftered_0808 {
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.MainMenuTileList_contentWrapper_ba69 {
+	flex-direction: row;
+	align-items: center;
+}
+
+.MinecraftLogo_minecraftLogo_43e7 {
+	width: 35rem;
+	height: 5.78rem;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.Modal_modalWrapper_d8c1 {
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	/* Modals should always take the full screen size */
+	width: 100vw;
+	height: 100vh;
+}
+.Modal_overlay_573f {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	animation-fill-mode: both;
+}
+.Modal_hidden_437c {
+	display: none;
+}
+.Modal_modal_413d {
+	justify-content: center;
+	align-items: center;
+	z-index: 11;
+	animation-fill-mode: both;
+}
+.Modal_header_cd0d {
+	align-items: center;
+	text-align: center;
+	padding: 0 2rem 2rem 2rem;
+}
+.Modal_paddedFooter_8764 {
+	padding: 0 2rem 2rem 2rem;
+}
+.Modal_body_57b8 {
+	background-color: #ffffff;
+	border-radius: 0.25rem;
+	margin-top: 4rem;
+	z-index: 12;
+	width: 90%;
+	max-width: 40rem;
+}
+.Modal_content_8f61 {
+	font-family: 'Noto Sans';
+	color: #2e2e2e;
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+.Modal_question_fe57 {
+	font-family: 'MinecraftTen';
+	color: #2e2e2e;
+	font-size: 2.25rem;
+	margin-top: 1rem;
+	line-height: 2.81rem;
+	text-align: center;
+}
+.Modal_img_d5c0 {
+	width: 10rem;
+	height: 10rem;
+	margin-top: -4rem;
+	margin-bottom: 1.5rem;
+	justify-content: center;
+	align-items: center;
+}
+.Modal_overlayOpenAnimation_9663 {
+	animation-name: Modal_overlayOpen_69d4;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+.Modal_overlayCloseAnimation_3716 {
+	animation-name: Modal_overlayClose_8259;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+@keyframes Modal_overlayOpen_69d4 {
+	0% {
+		background-color: rgba(0, 0, 0, 0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+@keyframes Modal_overlayClose_8259 {
+	0% {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0);
+	}
+}
+.Modal_boxLeftAnimation_cd1f {
+	animation-name: Modal_modalPopAnimation_dd95;
+	animation-duration: 0.3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	transform-origin: 0% 0%;
+}
+.Modal_boxRightAnimation_9a4d {
+	animation-name: Modal_modalPopAnimation_dd95;
+	animation-duration: 0.3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	transform-origin: 100% 0%;
+}
+.Modal_boxCenterAnimation_9c7e {
+	animation-name: Modal_modalPopAnimation_dd95;
+	animation-duration: 0.3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	transform-origin: 50% 50%;
+}
+.Modal_boxLeftAnimationClosing_cc69 {
+	animation-name: Modal_modalHideAnimation_53d2;
+	animation-duration: 0.3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	transform-origin: 0% 0%;
+}
+.Modal_boxRightAnimationClosing_7804 {
+	animation-name: Modal_modalHideAnimation_53d2;
+	animation-duration: 0.3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	transform-origin: 100% 0%;
+}
+.Modal_boxCenterAnimationClosing_c39b {
+	animation-name: Modal_modalHideAnimation_53d2;
+	animation-duration: 0.3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	transform-origin: 50% 50%;
+}
+@keyframes Modal_modalPopAnimation_dd95 {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	30% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@keyframes Modal_modalHideAnimation_53d2 {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+
+.Shelf_shelf_8c75 {
+	overflow-x: scroll;
+	flex-direction: row;
+}
+
+.Shelf_shelfCard_5ee1 {
+	padding-right: 3.8rem;
+}
+
+.Shelf_shelfRightSpacer_7387 {
+	width: 100vw;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.ShelfCardEnd_shelfCardEndWrapper_97cb {
+	height: 27rem;
+	padding-top: 2rem;
+}
+.ShelfCardEnd_shelfCardEndWrapperFocused_d73c {
+	padding-top: 7rem;
+}
+.ShelfCardEnd_ShelfCardEnd_0602 {
+	align-items: center;
+	width: 26.67rem;
+	height: 17rem;
+}
+.ShelfCardEnd_labelMargin_cf3d {
+	margin-left: 1.875rem;
+}
+.ShelfCardEnd_ShelfCardEndFocused_9d93 {
+	animation-name: ShelfCardEnd_ShelfCardEndFocused_9d93;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.ShelfCardEnd_ShelfCardEndUnFocused_c307 {
+	animation-name: ShelfCardEnd_ShelfCardEndUnFocused_c307;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.ShelfCardEnd_contentContainer_fb9c {
+	width: 26.67rem;
+	height: 15rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	flex-direction: row;
+	align-items: center;
+	border-radius: 0.625rem;
+	padding-left: 1.875rem;
+}
+.ShelfCardEnd_contentContainerFocused_289e {
+	background-color: rgba(255, 255, 255, 0.9);
+	animation-name: ShelfCardEnd_contentContainerFocused_289e;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	transform-origin: center center;
+	justify-content: center;
+	padding-left: 0rem;
+}
+.ShelfCardEnd_contentContainerUnFocused_fe2e {
+	animation-name: ShelfCardEnd_contentContainerUnFocused_fe2e;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	transform-origin: center center;
+}
+@keyframes ShelfCardEnd_ShelfCardEndFocused_9d93 {
+	0% {
+		width: 26.67rem;
+		height: 15rem;
+	}
+	100% {
+		width: 42.67rem;
+		height: 25.88rem;
+	}
+}
+@keyframes ShelfCardEnd_ShelfCardEndUnFocused_c307 {
+	0% {
+		width: 42.67rem;
+		height: 25.88rem;
+	}
+	100% {
+		width: 26.67rem;
+		height: 15rem;
+	}
+}
+@keyframes ShelfCardEnd_contentContainerFocused_289e {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.6);
+	}
+}
+@keyframes ShelfCardEnd_contentContainerUnFocused_fe2e {
+	0% {
+		transform: scale(1.6);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.RecentWorldsShelfCard_cardWrapper_c4da {
+	height: 27rem;
+	padding-top: 2rem;
+}
+.RecentWorldsShelfCard_cardWrapperFocused_d7ce {
+	padding-top: 7rem;
+}
+.RecentWorldsShelfCard_recentWorldsShelfCard_2b40 {
+	align-items: center;
+	width: 26.67rem;
+}
+.RecentWorldsShelfCard_cardFocused_b92e {
+	animation-name: RecentWorldsShelfCard_shelfCardFocused_2a45;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.RecentWorldsShelfCard_cardUnFocused_0673 {
+	animation-name: RecentWorldsShelfCard_shelfCardUnFocused_c6b8;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.RecentWorldsShelfCard_imageContainer_097c {
+	width: 26.67rem;
+	height: 15rem;
+	margin-bottom: 0.5rem;
+	/* Blur needs to be static */
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.15); /* stylelint-disable-line unit-whitelist */
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 75%);
+}
+.RecentWorldsShelfCard_imageContainerFocused_701c {
+	margin-bottom: 0rem;
+	background-image: none;
+	/* Blur needs to be static */
+	box-shadow: 0 2rem 15px -1.25rem rgba(0, 0, 0, 0.25); /* stylelint-disable-line unit-whitelist */
+	animation-name: RecentWorldsShelfCard_ImageContainerFocused_41bb;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	transform-origin: center center;
+}
+.RecentWorldsShelfCard_imageContainerUnFocused_ed72 {
+	animation-name: RecentWorldsShelfCard_ImageContainerUnFocused_2f2b;
+	animation-duration: 0.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	transform-origin: center center;
+}
+.RecentWorldsShelfCard_image_a9fc {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #e8e8e8;
+	box-shadow: inset 0rem 0.5rem 0 -0.25rem rgba(255, 255, 255, 0.2);
+	filter: brightness(105%) contrast(75%);
+}
+.RecentWorldsShelfCard_imageFocused_c2d2 {
+	/* Blur needs to be static */
+	box-shadow: inset 0 -7rem 45px -3rem rgba(0, 0, 0, 0.45), inset 0 0.3rem 0 -0.15rem rgba(255, 255, 255, 0.2); /* stylelint-disable-line unit-whitelist */
+	filter: brightness(100%) contrast(100%);
+}
+.RecentWorldsShelfCard_text_183e {
+	max-width: 26.67rem;
+	align-self: flex-start;
+}
+.RecentWorldsShelfCard_textFocused_cccb {
+	position: absolute;
+	bottom: -2.7rem;
+	max-width: 35rem;
+	left: 2rem;
+}
+@keyframes RecentWorldsShelfCard_shelfCardFocused_2a45 {
+	0% {
+		width: 26.67rem;
+	}
+	100% {
+		width: 42.67rem;
+	}
+}
+@keyframes RecentWorldsShelfCard_shelfCardUnFocused_c6b8 {
+	0% {
+		width: 42.67rem;
+	}
+	100% {
+		width: 26.67rem;
+	}
+}
+@keyframes RecentWorldsShelfCard_ImageContainerFocused_41bb {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.6);
+	}
+}
+@keyframes RecentWorldsShelfCard_ImageContainerUnFocused_2f2b {
+	0% {
+		transform: scale(1.6);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.ShelfHeader_shelfHeader_6483 {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.PatchNotes_patchNotes_aa6e {
+	/*The perspective should be static no matter the screen scale */
+	perspective: 2px; /* stylelint-disable-line unit-whitelist */
+	transform-style: preserve-3d;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background-color: #ffffff;
+}
+.PatchNotes_topBar_42b0 {
+	padding-left: 2rem;
+}
+.PatchNotes_content_2c79 {
+	background-color: #ffffff;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+.PatchNotes_body_b6ee {
+	max-width: 60rem;
+}
+.PatchNotes_fullWidthImage_ba1b {
+	transform-style: preserve-3d;
+	padding-top: 35%;
+}
+.PatchNotes_wrapper_853a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transform: translateZ(-1px) scale(2); /* stylelint-disable-line unit-whitelist */
+	z-index: -1;
+}
+.PatchNotes_parallax_b008 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.PatchNotes_shelfRow_ff4e {
+	background-color: #f2f2f2;
+}
+
+.SampleComponent_sampleComponent_21b3 {
+	background-color: rgba(255, 0, 0, 0.3);
+}
+
+.SampleComponent_textContainer_a14d {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 25vmin;
+	height: 15vmin;
+}
+
+.ShelfHeaderLink_shelfHeaderLink_d82d {
+	flex-direction: row;
+	align-items: center;
+}
+
+.ShelfStartItem_shelfStartItem_bc48 {
+	width: 26.67rem;
+	height: 15rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 0.625rem;
+}
+
+.ShelfStartItem_focused_0aff {
+	background-color: rgba(255, 255, 255, 0.9);
+	transform: scale(1.6);
+	transform-origin: 0% 0%;
+}
+
+.ShelfStartItem_body_6670 {
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 15rem;
+	padding: 1.875rem;
+}
+
+.ShelfStartItem_bodyFocused_b1d6 {
+	justify-content: center;
+}
+
+.ShelfStartItem_text_706a {
+	font-family: 'MinecraftTen';
+	font-size: 2.3rem;
+	letter-spacing: 0.1rem;
+	color: #4f8cb4;
+	padding-left: 1.875rem;
+	display: none;
+}
+
+.ShelfStartItem_textFocused_8b2e {
+	display: flex;
+}
+
+.TextInput_textInput_7c66 {
+	color: #000000;
+	text-align: left;
+	line-height: 2.8rem;
+	font-size: 1.4rem;
+	font-family: 'Noto Sans';
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+.TopBarButton_topBarButton_f3a5 {
+	flex-direction: row;
+	text-shadow: 0 0.15rem rgba(0, 0, 0, 0.5);
+	background-repeat: no-repeat;
+	background-position: right;
+	max-width: 27.75rem;
+	background-size: cover;
+}
+.TopBarButton_touchDevice_5f24 {
+	background-image: url(/assets/topBarButtonTouch.png);
+}
+.TopBarButton_touchDeviceDown_2120 {
+	background-image: url(/assets/topBarButtonTouchDown.png);
+	margin-top: 0.1875rem;
+}
+.TopBarButton_gamepadDevice_cf9a {
+	background-image: url(/assets/topBarButtonGamepad.png);
+	margin-right: 1rem;
+}
+.TopBarButton_gamepadDeviceDown_c9b1 {
+	background-image: url(/assets/topBarButtonGamepadDown.png);
+	margin-top: 0.1875rem;
+}
+.TopBarButton_avatarTV_7cb5 {
+	width: 3rem;
+	height: 3rem;
+}
+.TopBarButton_avatarHandheld_efe6 {
+	width: 5rem;
+	height: 5rem;
+}
+.TopBarButton_avatarWrapper_5ed4 {
+	border-bottom: 0.22rem solid rgba(86, 86, 86, 0.5);
+}
+.TopBarButton_avatarWrapperDown_f49c {
+	margin-top: 0.1875rem;
+	border-bottom: 0.1rem solid rgba(86, 86, 86, 0.5);
+}
+.TopBarButton_iconTV_2ce9 {
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+}
+.TopBarButton_iconHandheld_be0a {
+	align-items: center;
+	justify-content: center;
+	font-size: 5rem;
+}
+.TopBarButton_iconLogin_78ee {
+	background-image: linear-gradient(#1fad33, #28c63e);
+	border-bottom: 0.22rem solid #057d1d;
+}
+.TopBarButton_iconLoginDown_ecbd {
+	border-bottom: 0.1rem solid #057d1d;
+	margin-top: 0.1875rem;
+}
+.TopBarButton_iconWrapper_cfad {
+	margin-bottom: 0.25rem;
+}
+.TopBarButton_iconHelp_35f5 {
+	background-image: linear-gradient(#586796, #7282b6);
+	border-bottom: 0.22rem solid #404a6b;
+}
+.TopBarButton_iconHelpDown_10cb {
+	border-bottom: 0.1rem solid #404a6b;
+	margin-top: 0.1875rem;
+}
+.TopBarButton_text_92ec {
+	color: white;
+	font-family: 'MinecraftTen';
+	flex-direction: row;
+	padding: 0 0.4rem 0 0.9rem;
+	align-items: center;
+	font-size: 1.6rem;
+	letter-spacing: 0.05em;
+	margin-right: 1.25rem;
+}
+.TopBarButton_textHandheldGamepad_66e4 {
+	margin-right: 2rem;
+}
+.TopBarButton_gamepadButtonTV_38ff {
+	position: absolute;
+	right: -0.93rem;
+	top: 0.55rem;
+	height: 2rem;
+	width: 1.86rem;
+}
+.TopBarButton_gamepadButtonHandheld_af37 {
+	position: absolute;
+	right: -1.488rem;
+	top: 0.9rem;
+	height: 3.2rem;
+	width: 2.976rem;
+}
+
+.TopBar_topBar_69f4 {
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	position: relative;
+	height: 4.625rem;
+}
+
+.TopBar_logo_ea15 {
+	width: 27rem;
+	height: 4.625rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -13.5rem;
+}
+
+/**
+ * Variables should be defined in the root scope to be read by external CSS modules.
+ *
+ * Since we are using PostCSS and CSS Modules, no other variable/class will be
+ * exported from this file.
+ */
+:root {
+
+	/* FIXME: These colors are getting out of hand. Try to limit the amount and reuse existing ones. */
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+#root {
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'MinecraftTen';
+	src: url(/fonts/Minecraft-Ten.otf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'MinecraftSeven';
+	src: url(/fonts/Minecraft-Seven.otf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'MinecraftFive';
+	src: url(/fonts/Minecraft-Five.otf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'MinecraftFive';
+	font-weight: bold;
+	src: url(/fonts/Minecraft-Five-Bold.otf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Noto Sans';
+	src: url(/fonts/NotoSans-Regular.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: bold;
+	src: url(/fonts/NotoSans-Bold.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: bold;
+	font-style: italic;
+	src: url(/fonts/NotoSans-BoldItalic.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: italic;
+	src: url(/fonts/NotoSans-Italic.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url(/fonts/RobotoMono-Regular.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+* {
+	box-sizing: border-box;
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+body {
+	font-family: 'MinecraftTen';
+	color: #ffffff;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+div {
+	align-items: stretch;
+	border-width: 0;
+	border-style: solid;
+	box-sizing: border-box;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	min-height: 0;
+	min-width: 0;
+}
+.UIProvider_version_1197 {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0.31rem;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	font-family: 'Noto Sans';
+	font-size: 1.2rem;
+}
+
+.CodeBlock_codeBlock_1460 {
+	font-family: 'Roboto Mono';
+	font-size: 14px; /* stylelint-disable-line unit-whitelist */
+	background-color: #0e1126;
+	color: #61afef;
+	padding: 20px 20px; /* stylelint-disable-line unit-whitelist */
+}
+
+.Examples_example_2984 {
+	padding: 1rem 2rem 1rem 2rem;
+	background-color: #eeeeee;
+	overflow: hidden;
+}
+
+.Examples_small_7558 {
+	height: 15rem;
+	width: 15rem;
+}
+
+.Examples_large_c73e {
+	height: 70vh;
+}
+
+.Examples_border_d1b9 {
+	margin: 1.25rem;
+	border: 0.125rem solid #c7c7c7;
+	background-color: transparent;
+}
+
+.Examples_fullScreen_2935 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	padding: 0rem;
+	z-index: 999998;
+}
+
+.Examples_fullScreenIcon_7722 {
+	position: absolute;
+	top: 0.3125rem;
+	right: 0.3125rem;
+	font-family: 'Noto Sans';
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 999999;
+	padding: 0.3125rem;
+	font-size: 1.25rem;
+	cursor: pointer;
+	width: 1.75rem;
+	height: 1.75rem;
+}
+
+.LegacyExample_content_c12c {
+	margin-bottom: 2.5rem;
+}
+
+.LegacyExample_name_0434 {
+	color: #1e8292;
+	font-size: 3em;
+	margin: 1.25rem 0rem;
+	font-family: 'Noto Sans';
+	text-transform: capitalize;
+}
+
+.LegacyExample_description_6793 {
+	font-size: 1.56rem;
+	margin-bottom: 1.25rem;
+	color: black;
+	font-family: 'Noto Sans';
+	text-transform: capitalize;
+}
+
+.Link_link_34a4 {
+	font-family: 'Roboto';
+	font-style: italic;
+	cursor: pointer;
+	text-decoration: none;
+	color: #35b030;
+	font-size: 16px; /* stylelint-disable-line unit-whitelist */
+	line-height: 24px; /* stylelint-disable-line unit-whitelist */
+}
+
+.Link_focused_a5eb {
+	font-weight: bold;
+	color: #5fb0bb;
+}
+
+.MDXTag_headerOne_7ffa {
+	font-weight: 100;
+	color: black;
+	font-size: 26px; /* stylelint-disable-line unit-whitelist */
+	line-height: 30px; /* stylelint-disable-line unit-whitelist */
+	padding-top: 60px; /* stylelint-disable-line unit-whitelist */
+	padding-bottom: 30px; /* stylelint-disable-line unit-whitelist */
+}
+
+.MDXTag_headerTwo_4be8 {
+	font-weight: 100;
+	color: black;
+	font-size: 22px; /* stylelint-disable-line unit-whitelist */
+	line-height: 16px; /* stylelint-disable-line unit-whitelist */
+	padding-top: 40px; /* stylelint-disable-line unit-whitelist */
+	padding-bottom: 10px; /* stylelint-disable-line unit-whitelist */
+}
+
+.MDXTag_headerThree_67c5 {
+	font-weight: bold;
+	color: black;
+	font-size: 16px; /* stylelint-disable-line unit-whitelist */
+	text-transform: uppercase;
+	line-height: 20px; /* stylelint-disable-line unit-whitelist */
+	letter-spacing: 2px; /* stylelint-disable-line unit-whitelist */
+	padding-top: 30px; /* stylelint-disable-line unit-whitelist */
+}
+
+.MDXTag_paragraph_b3ea {
+	color: black;
+	font-size: 14px; /* stylelint-disable-line unit-whitelist */
+	line-height: 20px; /* stylelint-disable-line unit-whitelist */
+	margin: 0;
+	padding-top: 10px; /* stylelint-disable-line unit-whitelist */
+	padding-bottom: 10px; /* stylelint-disable-line unit-whitelist */
+}
+
+.MDXTag_link_5ca6 {
+	cursor: pointer;
+	color: #35b030;
+	font-size: 14px; /* stylelint-disable-line unit-whitelist */
+	line-height: 18px; /* stylelint-disable-line unit-whitelist */
+	font-style: italic;
+	text-decoration: none;
+}
+
+.MDXTag_list_dd55 {
+	color: black;
+	font-size: 14px; /* stylelint-disable-line unit-whitelist */
+	line-height: 18px; /* stylelint-disable-line unit-whitelist */
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.MDXTag_listBullet_4aac {
+	padding-left: 10px; /* stylelint-disable-line unit-whitelist */
+}
+
+.MDXTag_inlineCode_21fb {
+	color: black;
+	background-color: #ebebeb;
+	padding: 2px 6px; /* stylelint-disable-line unit-whitelist */
+}
+
+.NavigationLink_navigationLink_b50c {
+	color: white;
+	background-color: transparent;
+	font-size: 16px; /* stylelint-disable-line unit-whitelist */
+	cursor: pointer;
+	padding: 8px 0 8px 20px; /* stylelint-disable-line unit-whitelist */
+	letter-spacing: 1px; /* stylelint-disable-line unit-whitelist */
+}
+
+.NavigationLink_focused_7eee {
+	background-color: #d5d5d5;
+}
+
+.NavigationLink_selected_48fd {
+	background-color: #44d93e;
+}
+
+.Navigation_navigation_05f7 {
+	overflow: scroll;
+	background-color: #333333;
+	width: 20vw;
+}
+
+.Navigation_title_ba81 {
+	text-transform: uppercase;
+	font-size: 12px; /* stylelint-disable-line unit-whitelist */
+	padding: 20px 0 16px 20px; /* stylelint-disable-line unit-whitelist */
+	opacity: 0.62;
+	letter-spacing: 2.88px; /* stylelint-disable-line unit-whitelist */
+}
+
+.PlatformSelection_bar_fceb {
+	width: 100%;
+	background-color: white;
+	height: 50px; /* stylelint-disable-line unit-whitelist */
+	color: black;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px; /* stylelint-disable-line unit-whitelist */
+}
+
+.PlatformSelection_stackedBorder_00ca {
+	width: 97%;
+	border-top: 1px solid lightgrey; /* stylelint-disable-line unit-whitelist */
+	align-self: center;
+}
+
+.PlatformSelection_optionsInput_20d0 {
+	width: 30%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.PlatformSelection_optionsScreen_5bca {
+	width: 30%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.PlatformSelection_input_3e82 input {
+	width: 56px; /* stylelint-disable-line unit-whitelist */
+	height: 30px; /* stylelint-disable-line unit-whitelist */
+}
+
+.PlatformSelection_input_3e82 {
+	width: 20%;
+	margin-right: 40px; /* stylelint-disable-line unit-whitelist */
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.PlatformSelection_option_7fc2 {
+	margin-right: 20px; /* stylelint-disable-line unit-whitelist */
+	border-radius: 2px; /* stylelint-disable-line unit-whitelist */
+	padding: 4px; /* stylelint-disable-line unit-whitelist */
+	background-color: white;
+	border: 1px solid lightgrey; /* stylelint-disable-line unit-whitelist */
+	z-index: 100;
+}
+
+.PlatformSelection_optionSelected_5536 {
+	margin-right: 20px; /* stylelint-disable-line unit-whitelist */
+	border-radius: 2px; /* stylelint-disable-line unit-whitelist */
+	background-color: #44d93e;
+	border: 1px solid lightgrey; /* stylelint-disable-line unit-whitelist */
+}
+
+.Content_container_48e3 {
+	width: 80%;
+	align-items: center;
+	overflow: scroll;
+	height: 100%;
+}
+
+.Content_content_c6cf {
+	min-height: 100vh;
+	max-width: 60vw;
+	min-width: 60vw;
+}
+
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Roboto';
+	font-weight: normal;
+	src: url(/fonts/Roboto-Regular.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: normal;
+	src: url(/fonts/Roboto-Italic.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Roboto';
+	font-weight: bold;
+	src: url(/fonts/Roboto-Bold.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 100;
+	src: url(/fonts/Roboto-Light.ttf);
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, no-duplicate-selectors */
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-style: italic;
+	src: url(/fonts/Roboto-LightItalic.ttf);
+}
+.Playground_playground_b003 {
+	flex-direction: row;
+	font-family: 'Roboto';
+	color: white;
+	background-color: white;
+	height: 100%;
+}
+
+.PropsTable_container_246f {
+	padding: 2.5rem;
+	background-color: #eeeeee;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.PropsTable_row_cf9c {
+	flex-direction: row;
+}
+
+.PropsTable_header_e097 {
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+	font-family: 'Roboto';
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	width: 50%;
+	letter-spacing: 0.05rem;
+}
+
+.PropsTable_propsInfo_5b8a {
+	font-size: 1.2rem;
+	font-family: 'Roboto Mono';
+	color: black;
+	width: 50%;
+	flex-direction: row;
+}
+
+.PropsTable_none_7020 {
+	font-size: 1.2rem;
+	font-family: 'Roboto';
+	color: red;
+}
+
+.Space_small_f735 {
+	padding-top: 1.5rem;
+}
+
+.Space_medium_64b8 {
+	padding-top: 3rem;
+}
+
+.Space_large_da0a {
+	padding-top: 5.5rem;
+}
+
+.alpha_opacityBox_f2d2 {
+	border: 1px solid black; /* stylelint-disable-line unit-whitelist */
+	align-items: center;
+	flex-direction: row;
+}
+
+.alpha_img_d993 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black; /* stylelint-disable-line unit-whitelist */
+}
+
+.alpha_opacity0_1604 {
+	opacity: 0;
+}
+
+.alpha_opacity03_44d7 {
+	opacity: 0.3;
+}
+
+.alpha_opacity07_bf38 {
+	opacity: 0.7;
+}
+
+.alpha_opacity1_941e {
+	opacity: 1;
+}
+
+.alpha_alphaColorsBox_613e {
+	border: 1px solid black; /* stylelint-disable-line unit-whitelist */
+	align-items: center;
+	flex-direction: row;
+}
+
+.alpha_alphaBox_033f {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black; /* stylelint-disable-line unit-whitelist */
+}
+
+.alpha_alpha0_2407 {
+	background-color: rgba(120, 0, 0, 0);
+}
+
+.alpha_alpha03_5a9b {
+	background-color: rgba(120, 0, 0, 0.3);
+}
+
+.alpha_alpha07_65e8 {
+	background-color: rgba(120, 0, 0, 0.7);
+}
+
+.alpha_alpha1_eed0 {
+	background-color: rgba(120, 0, 0, 1);
+}
+
+.animations_animationBackgroundPosition_7df1 {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.animations_animationBackgroundPosition2_76b0 {
+	flex-direction: column;
+}
+.animations_flyingCat_3172 {
+	animation-name: animations_bounce-around_514f;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	width: 100px;
+	height: 100px;
+}
+.animations_scalingCat_11b0 {
+	animation-name: animations_scale-around_6040;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	width: 138px;
+	height: 100px;
+}
+.animations_pngSequenceTest_afe7 {
+	width: 50px;
+	height: 72px;
+	background-image: url(/assets/sprite-steps.png);
+
+	animation-name: animations_that-wavy-java-applet-character_b5bc;
+	animation-duration: 0.8s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+.animations_pngSequenceTest2_c97c {
+	width: 190px;
+	height: 240px;
+	background-image: url(/assets/monster.png);
+	background-position: left center;
+	animation-name: animations_treehouse-monster-code-sample_219b;
+	animation-duration: 0.8s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+@keyframes animations_treehouse-monster-code-sample_219b {
+	0% {
+		background-position: 0px;
+	}
+	100% {
+		background-position: -1900px;
+	}
+}
+@keyframes animations_that-wavy-java-applet-character_b5bc {
+	from {
+		background-position: 0px;
+	}
+	to {
+		background-position: -500px;
+	}
+}
+@keyframes animations_bounce-around_514f {
+	0%,
+	100% {
+		transform: translate(0vw, 0vh);
+	}
+	20% {
+		transform: translate(20vw, 20vh);
+	}
+	40% {
+		transform: translate(-20vw, 20vh);
+	}
+	60% {
+		transform: translate(-20vw, -20vh);
+	}
+	80% {
+		transform: translate(20vw, -20vh);
+	}
+}
+@keyframes animations_scale-around_6040 {
+	0%,
+	100% {
+		transform: scale(0, 0);
+	}
+	20% {
+		transform: scale(3, 3);
+	}
+	40% {
+		transform: scale(1, 1);
+	}
+	60% {
+		transform: scale(3, 0.5);
+	}
+	80% {
+		transform: scale(0.5, 3);
+	}
+}
+
+.filters_filters_af74 {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.filters_img_2087 {
+	width: 200px;
+	height: 192px;
+}
+
+.filters_div_5a6b {
+	flex-direction: column;
+}
+
+.filters_blur_2449 {
+	filter: blur(24px);
+}
+
+.filters_brightness_a4c1 {
+	filter: brightness(2);
+}
+
+.filters_contrast_e2df {
+	filter: contrast(200%);
+}
+
+.filters_dropShadow_cf77 {
+	filter: drop-shadow(15px 15px 15px #0f0);
+}
+
+.filters_grayscale_d9e8 {
+	filter: grayscale(100%);
+}
+
+.filters_hueRotate_5acb {
+	filter: hue-rotate(90deg);
+}
+
+.filters_invert_61a6 {
+	filter: invert(100%);
+}
+
+.filters_opacity_72d7 {
+	filter: opacity(30%);
+}
+
+.filters_saturate_5995 {
+	filter: saturate(500%);
+}
+
+.filters_sepia_6456 {
+	filter: sepia(100%);
+}
+
+.filters_combo_8852 {
+	filter: brightness(130%) contrast(110%) grayscale(0%) hue-rotate(180deg) invert(0%) saturate(200%) sepia(0%);
+}
+
+.zAndAlpha_div_8e3b {
+	position: absolute;
+	border: 2px solid #000;
+	width: 20vw;
+	height: 20vh;
+}
+
+.zAndAlpha_one_1489 {
+	top: 10vh;
+	left: 10vw;
+	z-index: 1;
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.zAndAlpha_two_9eb4 {
+	top: 13vh;
+	left: 13vw;
+	z-index: 2;
+	background-color: rgba(0, 255, 0, 0.75);
+}
+
+.zAndAlpha_three_e08b {
+	top: 16vh;
+	left: 16vw;
+	z-index: 3;
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+.zAndAlpha_four_788a {
+	top: 19vh;
+	left: 19vw;
+	z-index: 4;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.zAndAlpha_five_1c5f {
+	top: 22vh;
+	left: 22vw;
+	z-index: 5;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.zAndAlpha_six_c087 {
+	top: 25vh;
+	left: 25vw;
+	z-index: 6;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.zAndAlpha_seven_d752 {
+	top: 28vh;
+	left: 28vw;
+	z-index: 0;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.pseudo_pseudoClasses_bdd1 {
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.pseudo_buttonWithStates_14b5 {
+	box-shadow: inset 0px 1px 0px 0px #fce2c1;
+	background-image: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color: #ffc477;
+	border-radius: 6px;
+	border: 1px solid #eeb44f;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #cc9f52;
+	margin-bottom: 20px;
+}
+
+.pseudo_buttonWithStates_14b5:hover {
+	background-image: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color: #fb9e25;
+}
+
+.pseudo_linkWithStates_c136:hover {
+	/* User hovers - does not work */
+	background-color: yellow;
+}
+
+.rgba_rgbaAllColors_f253 {
+	flex-direction: column;
+	color: black;
+}
+
+.rgba_rgbaImages_fa64 {
+	flex-direction: column;
+}
+
+.rgba_img_96d8 {
+	width: 30vw;
+	height: 30vw;
+}
+
+.rgba_invisible_10f9 {
+	opacity: 0;
+}
+
+.rgba_opaque_36db {
+	opacity: 0.5;
+}
+
+.rgba_invisible_10f9 {
+	opacity: 0;
+}
+
+.rgba_border_f435 {
+	border: 1px solid #000;
+	padding: 10px;
+	flex-direction: row;
+}
+
+.scaledImages_scaledImages_16ba {
+	align-items: flex-end;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.scaledImages_img_789d {
+	margin: 20px;
+	padding: 20px;
+}
+
+.scaledImages_negative_01a2 {
+	transform: scale(-1);
+}
+
+.scaledImages_half_d1ef {
+	transform: scale(0.5);
+}
+
+.scaledImages_double_40a1 {
+	transform: scale(2);
+}
+
+.scaledImages_onlyX_8c56 {
+	transform: scale(1, 2);
+}
+
+.scaledImages_onlyY_1699 {
+	transform: scale(2, 1);
+}
+
+.shapeMasks_shapeMasks_761c {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.shapeMasks_div_72ab {
+	background-image: url(/assets/uncomfortable-cat.jpg);
+	background-size: 280px 200px;
+	width: 280px;
+	height: 200px;
+}
+
+/* Let .one be unmasked for reference */
+
+.shapeMasks_two_99d0 {
+	clip-path: inset(10px 143px 100px 62px);
+}
+
+.shapeMasks_three_3ebf {
+	clip-path: circle(100px at center);
+}
+
+.shapeMasks_four_b4a4 {
+	clip-path: ellipse(50px 15px at 104px 47px);
+}
+
+.shapeMasks_five_6c80 {
+	clip-path: polygon(5% 5%, 80% 0%, 90% 67%, 71% 71%, 74% 98%, 58% 73%, 12% 75%);
+}
+
+.shapeMasks_six_7f2a {
+	clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+.shapeMasks_six_7f2a:hover {
+	clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.shapeMasks_seven_aa14 {
+	-webkit-mask-image: url(/assets/arrow.png);
+	mask-image: url(/assets/arrow.png);
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+/* Does not work in HB
+#shape-masks .eight {
+  clip-path: url(#myClip);
+}
+*/
+
+.text_text_cb6a {
+	flex-direction: row;
+	height: 100%;
+}
+
+.text_experiments_b12e {
+	margin-right: 30px;
+	height: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.text_divSpan_ac23 {
+	color: #fa0;
+}
+
+.text_shadow_9ed6 {
+	text-shadow: 0 3px 3px #f00;
+}
+
+.text_color_b16a {
+	color: green;
+	background-color: orange;
+}
+
+.text_shadowBox_8afa {
+	box-shadow: -10px 5px 5px green;
+	color: black;
+}
+
+.text_backgroundOpaque_6d70 {
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+.text_textbackgroundOpaque_7b22 {
+	color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+.wrapping_textureWrapping_13a6 {
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.wrapping_pic_60d5 {
+	background-image: url(/assets/scared-cat.png);
+	background-size: 100px 100px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000;
+}
+
+.wrapping_center_2f76 {
+	align-items: center;
+	margin-right: 50px;
+	justify-content: space-between;
+}
+
+.wrapping_repeatAll_80c2 {
+	background-repeat: repeat;
+}
+
+.wrapping_repeatX_196b {
+	background-repeat: repeat-x;
+}
+
+.wrapping_repeatY_889c {
+	background-repeat: repeat-y;
+}
+
+.wrapping_repeatNone_afe2 {
+	background-repeat: no-repeat;
+}
+
